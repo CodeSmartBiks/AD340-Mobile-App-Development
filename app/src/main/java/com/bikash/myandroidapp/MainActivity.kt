@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.Toast;
 
 class MainActivity : AppCompatActivity()  {
-    val btnArray = arrayOf("Send", "ZipOne", "ZipTwo", "ZipThree", "ZipFour")
+
+    val buttonArray = arrayOf("Send", "ZipOne", "ZipTwo", "ZipThree", "ZipFour")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
     fun showText(view: View) {
-        //val button: Button = findViewById(R.id.gButton1)
         val button = view as Button
         val context = applicationContext
         val duration = Toast.LENGTH_SHORT
