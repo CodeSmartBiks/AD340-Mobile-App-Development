@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <!-- fun fact details I created a linera layout since it was hard for me to align it with the design directly -->
+    <!-- fun fact details I created a linear layout since it was hard for me to align it with the design directly -->
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -124,11 +124,6 @@
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-
-
-    <!-- zip enter-->
-
-    <!-- Info Button -->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
